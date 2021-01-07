@@ -1,0 +1,16 @@
+Digimobs 2.0.0 Rebuild Beta 1 
+**THIS VERSION IS BUILT ON FORGE VERSION 1.15.2-31.2.46, USING OTHER VERSIONS MAY CAUSE THE MOD NOT TO LOAD**
+
+-Everything has been removed from the mod. Yep. Im not joking. See #digimobs-announcements for more details.
+
+-Added in the basic digivice. For the purposes of this Beta, you spawn with one in your inventory on the start of a new world. For the purposes of this beta, clicking a digimon will tame it instantly.
+-Added in the basic v-pet. The mechanics of the v-pet are slightly different in 2.0.0. Further explanation is found in the item and by using it. For the purposes of this Beta, the vpet color will change from black to red when a digimon is synced to it.
+-Added Huanglong Ore. It doesn't do anything, ignore it.
+
+-Added in Agumon, because I needed a test dummy. Agumon has had a slight model/texture edit, and brand new animations. Feed Agumon steak for extra fun.
+*Agumon spawns in the Plains and Desert biomes for testing purposes.
+-To make Agumon switch from sitting to following, use a stick.
+-To return Agumon to its v-pet, right click it with a diamond.
+
+-Added the Digibank 3.0. This is hopefully the final edition of the digibank, and the primary purpose of the beta. Please try and break it in any way possible. It should be full proof.
+The digibank will store over 500 v-pets in it's inventory, to the player data. Your v-pet should return to the bank at any point should it be tossed, thrown, or otherwise lost. Guinea pig away
