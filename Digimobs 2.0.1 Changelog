@@ -1,0 +1,10 @@
+Digimobs Re:Build 2.0.1-Beta 2**
+-THIS UPDATE WAS BUILT ON FORGE 1.15.2-31.2.46 USE OTHER VERSIONS AT YOUR OWN DISCRETION
+-Added shadowed support for GeckoLib. This is fancy talk for you no longer have to download the geckolib mod with Digimobs. 
+-Also re-added NBTEdit. This version has been ported to 1.13 and higher by malte0811. Only use nbtedit if you know what you are doing.
+-Added Botamon(Remodeled) and Koromon. Due to a slight issue with Botamons texture, he does not spawn naturally for now. Koromon spawns in the plains and desert during the day for testing purposes. No, they do not digivolve yet.
+-Added Butterflies! These mysterious butterflies spawn in the mountains and wooded mountains at night in multiple colors. And if you sneak up on them and right click them with your v-pet. . .
+-As you might have noticed from the above two statements, new spawning mechanics have been put in place.
+-Digimon are now capable of spawning in different weather, times of day(dawn,morning,day,night,evening,dusk), and moon phases(full and new moons for now)
+-Digimon are now persistent, which means they will not despawn on their own. Digimon that are outside of their spawning parameters(see above) for longer than 5 minutes will begin to despawn
+-Fixed some issues with the v-pet allowing you to v-pet digimon that did not belong to you.  
