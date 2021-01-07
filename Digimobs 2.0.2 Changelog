@@ -1,0 +1,12 @@
+**Digimobs Re:Build 2.0.2-Beta 3**
+-THIS UPDATE WAS BUILT ON FORGE 1.15.2-31.2.47 USE OTHER VERSIONS AT YOUR OWN DISCRETION
+-Botamon has been corrected, and now spawns in the desert and plains biomes
+-Fixed some localization issues
+-Digimon in the bank are now searchable by their names, thanks to Enju for catching that.
+-Digimon now follow you more closely 
+-Re-added variable sizes for Digimon. These are now multiplicative instead of additive, so they are not quite as big of changes as they were in prior versions. This is to help alleviate hitbox issues, and digimon becoming so small they stop rendering.
+-New item: D-Terminal. The D-Terminal now serves the purpose of being a "Field Guide" of sorts, which contains information about Digimon in the mod. Still a WIP and needs a background, but functional. These should spawn in your inventory when starting a new world for the time being. Otherwise you can get it out of the creative menu
+-All inventories will now display sprites of the digimon inside of v-pets.
+-You can now also display the sprites of the digimon in the v-pets on your hotbar by holding down the alt key. 
+-Gave digimon their own spawn type. This should prevent issues with passive vanilla creatures sometimes taking all their spawn spots. Let me know if they spawn too frequently now
+-Things I probably forgot about doing at this point.
