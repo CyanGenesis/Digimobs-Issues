@@ -1,0 +1,148 @@
+This changelog may be a bit different from what you are expecting, and here's a big wall'o'text at the beginning of it. If you've been following along in the discord, you know
+what's up. If you haven't you may be a little shocked to find that the new version of the mod is rather scarce. I've spent the last few months working on a totally rebuilt version of
+the mod on 1.12.2, only to scrap it, give up, and come back again on 1.15.2 with a totally different train of thought.
+I have wanted to just restart the mod from the beginning for a while now, because I started this mod back when I knew nothing about programming. The building blocks of the mod were 
+built on fairly shoddy code from almost 10 years ago. With the 10 year anniversary of Digimobs coming up this year, I thought, "why not just start from scratch?"
+And so I did.
+Welcome to the Re:Build of Digimobs, where I will be slowly reimplementing and building the mod in a new direction, starting with the first public beta. Public being, that this is
+now on CurseForge, as opposed to just being released to the peeps in the discord. Some things will be familiar, and some will not. Again I iterate that this is essentially the first version, and it focuses on the core elements of
+gameplay that I will be using to expand upon in the future. If your favorite digimon has been removed, don't fret. I will be re-adding old mobs back in fairly frequently.
+There is more to come.
+
+
+Digimobs 2.0.3 Rebuild Public Beta
+GENERAL
+-Everything has been removed from the mod. Yep. I'm not joking.
+-Digimobs now shadows the GeckoLib library. This will be what we are using from here on out to animate models, as you can see from certain models already in the mod.
+-Also re-added NBTEdit. This version has been ported to 1.13 and higher by malte0811. Only use nbtedit if you know what you are doing.
+-Craftable items and blocks will now be added to the recipe book when certain items are gathered, like vanilla.
+-Added one new Advancement. Just a basic one, but one nonetheless.
+
+
+ENTITIES
+*Let's cover the controversial part first. There were a few different ideas that came around for re-adding digimon. For the purposes of this beta, we have started by re-adding the
+original Adventure partners. 1.15 changes the way models are rendered, and on top of the new Field Guide functionality, require a little bit more time to port from 1.12. Digimon
+will trickle back in little by little, but for the purposes of the beta I've chosen to just focus on a small few so that we can squash any major bugs first.
+
+-TAMING WILL RETURN NEXT UPDATE RE-VAMPED. DON'T BE ALARMED THAT YOU CAN'T GET NEW DIGIMON. THIS IS A BETA AFTERALL
+
+-Digimon added to this version
+-Botamon(Remodeled)
+-Koromon(New Animations)
+-Agumon(New animations)
+-Greymon(Model edits, new animations)
+-MetalGreymon(Unchanged, but that will change soon)
+-WarGreymon(Unchanged, but that will change soon)
+
+-Punimon(Remodeled)
+-The rest of the Gabumon line(Unchanged)
+
+-Biyomon's line(Everything remodeled except for Yokomon)
+-Tentomon's line(unchanged)
+-Palmon's line(new animations, model edits for Rosemon)
+-Gomamon's line(Remodel for Gomamon, the rest unchanged)
+-Patamon's line(Unchanged)
+-Salamon's line(unchanged)
+-Added Butterflies! These come in different colors, and may have some utilities in the not so distant future..(and they re-color your vpets)
+
+-Digimon will now store their v-pet in their data when put into the world. Use the command bar to return them to the v-pet.
+-The command bar is the spiritual successor to the command wheel. Right clicking a digimon will sync it to your digivice, and allow use of the command wheel.
+*The following keybinds(configurable) are used for the command wheel. LEFT ARROW(moves selected command to the left), RIGHT ARROW(moves selected command to the right), 
+PERIOD KEY(executes command).
+*Several buttons on the command bar are left blank for future stuff. Right now you can attack, follow/sit toggle, and return digimon to the bank.
+-You can now target digimon from a larger distance with the digivice and/or target selection with the command bar.
+*To select an enemy to attack, put your crosshairs over the digimon until you see the grey targetting UI for the digimon. With yours synced to the digivice, execute the command
+attack, which will bring up the red enemy UI.
+
+-The stats from the previous version of Digimobs have all returned, however the backend of how they all work have been completely redone. To save this changelog from being a mile long,
+I will just be hitting the cliff notes.
+*Hunger and things attributed to the Weight stat will return in a later version.
+*Happiness has now been changed to the Bond stat, to also be expanded upon in a later version
+*Exp values have been changed, and will also accomodate different exp growths in the future. Yeah, that I did take from Pokemon. 
+*Experience gained from mobs I would appreciate feedback on
+*Physical attacks are now calculated differently. Digimon's element no longer factor into physical attacks. Higher forms now have slightly less advantage over lower forms.
+*Critical hit calculations have been redone entirely. These now factor in both digimon's speed and luck values.
+*Added battle information to the chat. This may end up being removed due to it's spammy nature. Needs more feedback.
+*Added delay value to physical attacks. This doesn't do anything as far as the beta goes, but will be activated once special attacks are implemented.
+*No really, I'll be doing special attacks the right way across the next few updates as well.
+
+-Digimon's inventories have been reduced to 6 slots, this is subject to change as I may end up redoing the code for the inventories soon. 
+
+-The method to obtain your digimon has changed. You will now have to take a personality test, based on the 16personalities online quiz.
+*NORMALLY, this would give you access to a potential of 48 different possible starter digimon. Since there are only 8 digimon lines in this version..obviously you can only pick
+from those 8. This will be expanded in the future.
+
+ITEMS
+-Re-added the storymode coin. This is now used to take a personality quiz. And that's all I've got to say about that.
+-Re-added the d-terminal. This item now functions to access the Field Guide.
+-Re-added in the basic digivice. This digivice will be bound to you once you use it. If it is tossed or you lose it from dying, it will return to your digibank.
+See the digibank section in blocks for more details on that.
+*The Digivice is your primary way to control digimon via the new command bar. See the Entities section for details on that.
+
+-Re-added in the v-pet. The mechanics of the v-pet are slightly different in Re:Build. Further explanation is found in the item and by using it.
+*You may re-color v-pets by shift-right clicking butterflies of different mutations. 
+*Hold down alt to see the sprite of your digimon in the v-pet.
+-Re added species chips.
+*These drop from rookie level digimon of the appropriate field.
+*These chips are now the primary way to hatch eggs.
+-Re added components
+*These drop from baby and in-training level digimon. These are used to craft v-pets, and will obviously be used to craft more items in the future.
+-Re-added digiegg items
+*These are self explanitory, they spawn digieggs.
+*New to Re:Build, eggs from creative mode will now spawn a random possible line from the egg, instead of just your standard line. This won't really become obvious until more digimon
+are added back into the game.
+-Re-added Chrondigizoit. Used for crafting Chrome Digizoid
+-Re-added small HP and EG floppys. Used to restore 50 hp and 25 eg respectively.
+*Drop from in-training and rookie level digimon.
+
+-Added new spawn parameters for digimon.
+*Most of the digimon in this version will spawn all day and all night, to provide there are not gaps in digimon spawning.
+In the future, Digimon will have spawn parameters to only spawn during certain weathers, certain moon phases, and various times of the day.
+
+-Added the Field Guide.
+*Long overdue is it to be able to view what all digimon are in the game, and give credit for those who made them. This fixes that.
+
+
+BLOCKS
+-Re-added Huanglong Ore. This ore is your primary ore block found frequently throughout the overworld
+-Re added Chrome Digizoid. Crafted from chrondigizoit, this will be your basic tier of building block.
+-Re added the Digibank, but better this time.
+*The digibank now comes with several new features. If you're familiar with the Pokecube Mod, this works very similar.
+*Digimon are now stored via v-pet in the digibank. Upon tossing/losing your storymode coin, digivice, or a filled v-pet, it will automatically transport to your bank.
+*You can use the search bar in the digibank to search for digimon by their names.
+*Digimon will also appear by their sprite while stored in the bank.
+
+QUESTS!?!?!?!
+-You heard me.
+-No you aren't dreaming, I'm finally doing it.
+-Stop looking at me that way.
+-Added inital functionality for quests. There is only one quest currently in the mod, and that is the one for your partner digimon. Much more to come on this in an update or two.
+
+WORLD
+-Added Huanglong Ore generation to the overworld
+
+-Added in Agumon, because I needed a test dummy. Agumon has had a slight model/texture edit, and brand new animations. Feed Agumon steak for extra fun.
+*Agumon spawns in the Plains and Desert biomes for testing purposes.
+
+
+Digimobs Re:Build 2.0.1-Beta 2**
+-Added shadowed support for GeckoLib. This is fancy talk for you no longer have to download the geckolib mod with Digimobs. 
+-Added Botamon(Remodeled) and Koromon. Due to a slight issue with Botamons texture, he does not spawn naturally for now. Koromon spawns in the plains and desert during the day for testing purposes. No, they do not digivolve yet.
+-Added Butterflies! These mysterious butterflies spawn in the mountains and wooded mountains at night in multiple colors. And if you sneak up on them and right click them with your v-pet. . .
+-As you might have noticed from the above two statements, new spawning mechanics have been put in place.
+-Digimon are now capable of spawning in different weather, times of day(dawn,morning,day,night,evening,dusk), and moon phases(full and new moons for now)
+-Digimon are now persistent, which means they will not despawn on their own. Digimon that are outside of their spawning parameters(see above) for longer than 5 minutes will begin to despawn
+-Fixed some issues with the v-pet allowing you to v-pet digimon that did not belong to you.  
+
+**Digimobs Re:Build 2.0.2-Beta 3**
+-THIS UPDATE WAS BUILT ON FORGE 1.15.2-31.2.47 USE OTHER VERSIONS AT YOUR OWN DISCRETION
+-Botamon has been corrected, and now spawns in the desert and plains biomes
+-Fixed some localization issues
+-Digimon in the bank are now searchable by their names, thanks to Enju for catching that.
+-Digimon now follow you more closely 
+-Re-added variable sizes for Digimon. These are now multiplicative instead of additive, so they are not quite as big of changes as they were in prior versions. This is to help alleviate hitbox issues, and digimon becoming so small they stop rendering.
+-New item: D-Terminal. The D-Terminal now serves the purpose of being a "Field Guide" of sorts, which contains information about Digimon in the mod. Still a WIP and needs a background, but functional. These should spawn in your inventory when starting a new world for the time being. Otherwise you can get it out of the creative menu
+-All inventories will now display sprites of the digimon inside of v-pets.
+-You can now also display the sprites of the digimon in the v-pets on your hotbar by holding down the alt key. 
+-Gave digimon their own spawn type. This should prevent issues with passive vanilla creatures sometimes taking all their spawn spots. Let me know if they spawn too frequently now
+-Things I probably forgot about doing at this point.
