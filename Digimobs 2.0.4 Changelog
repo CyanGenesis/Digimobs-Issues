@@ -1,0 +1,7 @@
+It wouldn't be a Digimobs update without a hotfix.
+
+-Fixes to v-pet not returning to your bank if your inventory is full
+-Fixes to various client side code trying to trigger on the server side because I'm dumb.
+-Added a max level cap to prevent certain crashes that can arise at level 100. This doesn't actually do anything other than preventing you from earning exp at max level.
+
+-Re-added Hagurumon line because I felt like it.
