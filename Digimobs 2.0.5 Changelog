@@ -1,0 +1,24 @@
+Digimobs 2.0.5 Changelog
+
+This is a rather rushed patch to mostly alleviate a few crashes for multiplayer, but also to incorporate the basic taming functionality.
+
+
+-Removed battle damage from being posted in the chat. It was both spammy and could occasionally cause a crash if the player is dead and the digimon continue to battle. I will look into alternative methods of showing damage numbers for the future.
+
+
+-Fixed a bug causing only Dragon Chips to be able to hatch eggs.
+
+-Fixed an issue with the calculations used to determine digimon's spawn levels.
+
+-Removed the digibeetle until it is completed since people won't quit forcespawning in and then wondering why it causes issues.
+
+-Digimon will not revert past level 0 upon dying. Digimon already at level 0 should be correct upon placing them into the world.
+
+-Miscellaneous bug fixes
+
+-Added command: /returntobank. This will allow you to place tamed digimon back into their respective players bank by targeting them and using the command. If the digimon has no v-pet, it will automatically equip it with a black v-pet by default.
+
+
+-Added preliminary taming. Newly spawned in digimon will now spawn with a favorite food. Feeding it enough of it's favorite food will prompt it with an animation to let you know it can be tamed(there will also be text in the chat for older models without these animations). Right clicking it with an empty v-pet will allow it to be tamed and sent to the digibank.
+
+..Don't mistake this as me making taming a whole lot easier. It's simply the basic implementation of it to allow people to have more digimon at the moment. There will be more to it.
