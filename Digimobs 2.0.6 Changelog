@@ -1,0 +1,8 @@
+Digimobs 2.0.6 Changelog
+
+
+-Various bug fixes and corrections
+-Hopefully fixed an issue with anything given a "day" or "night" spawning parameter not actually spawning at all. Will need further testing.
+-Fixed an exploit involving the starter selection
+-Fixed an error in taming items selecting "wheat" instead of "bread" You can send your tears to username HeartlessSora, P.O. Box 90210
+-Gave a big middle finger to griefers.
