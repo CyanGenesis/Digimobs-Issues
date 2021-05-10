@@ -1,0 +1,77 @@
+Digimobs 2.0.8 - The Nerfening
+
+
+
+
+-So let's address the digimon part before we go any further into the changelogs. Yes, it was voted upon that the first thing to be reimplemented would be all the digimon. In that time, 
+I've also put out a survey that gave me the indication that people were looking for more than just digimon. Also, after re-adding all the baby and in-training digimon back in, I found
+it was taking way too long to actually accomplish this all in one update, and eventually ended up burning out. It's boring, it's not fun.
+
+So, a compromise. I'm still making re-adding all the digimon back into the mod as priority, but they will come in smaller bursts so that I can also focus on adding new things, and/or
+refurbishing other old things back to the mod in a quicker fashion. On to the changes for this update.
+
+
+-This is a continuation of the taming update. My next goal will be moving to 1.16.5, and adding more to do then.
+
+
+ITEMS
+-Added higher tier HP and EG floppies. These respectfully drop from higher form mobs.
+-Added new bonding items. The wristwatch increases bond with Vaccine-type digimon, the Card Game with Data-types, and the Kickboard with Virus-types. Any of the three will increase
+bond for Free-type digimon.
+-Added item trades to villagers.
+Cleric villagers now have a chance to trade HP or EG floppies for emeralds
+Shepherd villagers now have a chance to trade egg hatching chips, and bonding items. This is the only way to currently get bonding items.
+
+ENTITY
+Digimon Re-Added:
+-Betamon, Seadramon, MegaSeadramon, MetalSeadramon
+-Candlemon, Meramon, SkullMeramon, Boltmon
+-DemiDevimon, Devimon, Myotismon, VenomMyotismon
+-Chuumon, Sukamon, Etemon, MetalEtemon
+-BlackAgumon, BlackGreymon, MetalGreymon(Virus), BlackWarGreymon
+-BlackGabumon, BlackGarurumon, ShadowWereGarurumon, BlackMetalGarurumon
+
+Updated animations:
+-Angewomon
+-Tokomon
+
+Remodels:
+-Poyomon
+-Patamon
+-Angemon
+-MagnaAngemon
+-Seraphimon
+-Zurumon
+-Pagumon
+
+NEW Digimon:
+-Goddramon - Has a rare chance to spawn in the early morning in the Mountains biome. But the better question is, how can Patamon unlock this new evolution...
+
+-Many digimon have recieved sprite updates thanks to Fenix51
+
+-Digimon can be controlled via the digivice with either hand.
+-Provided some additional spawning logic that should prevent digimon from spawning underground more than they do above ground.
+-Digimon that are attacked while their owner is offline will now automatically be returned to the bank if killed.
+-Newly added lines have been merged into the Personality Quiz selections
+
+-Nerfed exp values. And by nerf I mean I have corrected them to their proper values. And by corrected I mean I can't do math. And by that I mean it no longer exponentially increase
+per level.
+-Nerfed battle values. Essentially every digimon with an advantage would be dealing 10x more damage than intentional, or taking 10x less damage. This has been corrected.
+This also means you should be more careful while battling.
+-Corrected numerous model issues from those ported from 1.12
+-Nerfed taming
+You may now only tame digimon up to the Rookie level. Champions may come back in the future.
+Each level of digimon now requires a randomly selected food. These will increase and vary in the future when more food is reimplemented
+Tamed digimon will no longer revert into an egg if killed. This can be unlocked by having a bond with the digimon over 500.
+Tamed digimon now are not guaranteed to have full lines. higher forms can be unlocked by increasing bond with the digimon(100 for Rookie, 200 for Champion, 300 for Ultimate, 400 for Mega)
+While the Bond stat does not currently decrease, it will in future updates. Meaning you are just as likely to lose evolutions with tamed digimon if you don't treat them well!
+
+
+
+
+
+
+
+
+
+
