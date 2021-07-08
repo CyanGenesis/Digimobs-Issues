@@ -1,0 +1,59 @@
+GENERAL
+Now for 1.16.5!
+The mod is built on Forge 31.2.46.
+
+
+ITEMS
+-Villagers have had their trading prices adjusted for digimobs items.
+-Digivices are now dyeable through butterflies!
+-If you are interested in returning to the standard color digivice, simply craft it with a digicase.
+
+ENTITY
+Digimon Re-Added:
+-Popomon/Frimon
+-Paomon/Xiaomon
+-Tsubumon/Upamon
+-Elecmon/SaberLeomon(This digimon has been placed into the personality quiz)
+
+Updated models and animations:
+-Leomon/Panjyamon
+-ToyAgumon
+-MetalTyrannomon
+
+Remodels:
+-MetalGreymon/MetalGreymon(Virus)
+-WarGreymon/BlackWarGreymon
+-DarkTyrannomon
+-Gabumon/BlackGabumon
+-Garurumon/BlackGarurumon
+-WereGarurumon/ShadowWereGarurumon
+-MetalGarurumon/BlackMetalGarurumon
+-DemiDevimon/Devimon
+-IceDevimon
+
+
+NEW Digimon:
+-MetalGreymon(Alterous Mode)
+-RustTyrannomon
+-Liollmon/Liamon/LoaderLiomon/BanchoLeomon
+-Labramon/Dobermon/Cerberusmon(This digimon has been placed into the personality quiz)
+-Cherubimon(Virtue) - This digimon is a temporary placeholder for Labramon's mega form, as requested by Kit
+-Sangomon(The Seadramon line is a temporary placeholder for Sangomon's line)
+-Deputymon(The Andromon line is a temporary placeholder for Deputymon's line)
+-BlitzGreymon(hype)
+
+-Many digimon have recieved sprite updates thanks to Fenix51
+
+-Readded functionality for Degeneration and Mode Changing
+
+-Created a new framework for evolution. This will be used further to expand into various conditional evolutions(failure, dark, death, armor, etc). For the purposes of this update,
+temporary digivolution has been implemented. Under certain conditions, certain digimon may evolve into unexpected forms, but only for a limited time. One degenerated, the digimon will
+return to its normal line.
+
+-Added an evolution animation. I won't tell you how long this took me to get working and in return you won't break it.
+
+-Certain digimon will now spawn with certain lines based on their biome. For example, Pagumon will typically either spawn with the Devimon line or Sukamon line. 
+Now, if pagumon spawns in an ice spikes or snowy mountains biome, it will instead spawn with the icedevimon line exclusively.
+
+-Created a new config file! 
+-Make all digimon spawn locations and rarities configurable! Now you can quit harassing me about all of these things!
