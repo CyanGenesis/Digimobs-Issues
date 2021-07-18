@@ -1,0 +1,33 @@
+GENERAL
+The mod is built on Forge 36.1.16.
+
+Decided to try something a little different for a bit and release some mini updates to try and throw some stuff back in the mod. Septemeber is a long ways away for a big update.
+
+
+ITEMS
+
+-D-Terminal now includes credits for animators in addition to the rest of the credits.
+-D-Terminal will also now tell you if digimon have special spawn conditions.
+
+
+ENTITY
+Digimon Re-Added:
+-Solarmon/Guardromon(Gold)
+Why? Why not?
+
+-Fixed an issue with inventories. This was -technically- a couple of different issues rolled into one. They have been completely re-coded and as a result are much more stable
+and should not randomly delete themselves. But this also means that if you had anything in your digimon's inventory prior to this update, it will be deleted.
+
+-Re-added mutations. Digimon can now spawn with certain overlays to appear in a variety of colors. (If you try to nbtedit in a color not currently added, it will crash the game!)
+
+-Adjusted a few spawning conditions causing digimon to appear underground that shouldn't.
+-Moved any NIGHT TIME desert spawns to spawn throughout the day. For some reason, digimon do not want to spawn in the deserts at night, and I can't really find any rhyme or reason for it.
+
+
+-Nerfed EXP because I hate you all.
+
+-Fixed Goddramon's adaptive evolution requirements because it was broke and I refused to admit it.
+
+
+
+
