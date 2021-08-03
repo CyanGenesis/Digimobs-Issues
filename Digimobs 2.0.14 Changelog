@@ -1,0 +1,33 @@
+GENERAL
+The mod is built on Forge 36.2.0.
+Make sure to delete your config files and generate new ones!
+
+ITEMS
+-Energy floppies will now no longer put you over your max EG.
+
+
+ENTITY
+
+-Moar hitbox adjustments
+-Moved around the biomes of some night time digimon. There are apparently issues with digimon spawning on sand biomes(Deserts and Badlands) at night time, and this will take a little bit
+more studying to figure out why.
+
+-Re-Introducing PVP mode! This works relatively similar to last time. Digimon will not gain exp or be able to recieve item drops in pvp mode, but will return to their v-pet upon death
+with 1 hp. To combat some exploiting of this, the v-pets are returned to the bank instead of your inventory upon losing in pvp mode. I DO have plans to expand more pvp stuff in the 
+future.
+
+-Fixed an issue where digimon damage was not scaling properly in higher forms. No more 10 minute mega battles! Unless..
+
+-Introducing delay! Attacking in various ways will now add a "delay" before your next attack. The default delay is 8 seconds between attacks, and decreased based on digimon's Speed stat.
+
+-Introducing Special Attacks, the first part! 
+-Every digimon now has a signature skill. If you have a digimon from a previous update, please put it in the v-pet and resummon it out to update your digimon with a signature skill.
+-All digimon now have the capacity for two extra skills!(Special 1 and Special 2).
+-Digimon do not inherently start off with extra skills. By fighting digimon who use the skills in battle, your digimon has a chance to learn them upon defeating the enemy!
+*Signatures cannot currently be obtained as extra skills.
+*This does not apply to pvp battles
+*You CAN tame digimon with initial special skills
+*Currently, there are 30 extra skills, 10 for each element, and 3 tiers of each.
+-Once you have learned an extra skill, you can equip them through the "Specials" screen on your digimon via the digivice.
+
+-All special attacks currently scale with the Special Attack stat, and descale with the Special Defense stat.
