@@ -29,5 +29,7 @@ future.
 *You CAN tame digimon with initial special skills
 *Currently, there are 30 extra skills, 10 for each element, and 3 tiers of each.
 -Once you have learned an extra skill, you can equip them through the "Specials" screen on your digimon via the digivice.
+*Not all digimon currently have special animations, or projectiles. All newly animated digimon(including the newly animated ones post 2.0.0) will contain special animations.
+*Projectiles themselves will be something we work on as we have time as they are cosmetic and other things are more important.
 
 -All special attacks currently scale with the Special Attack stat, and descale with the Special Defense stat.
