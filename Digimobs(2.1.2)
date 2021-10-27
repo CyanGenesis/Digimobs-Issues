@@ -1,0 +1,57 @@
+GENERAL
+The mod is built on Forge 36.2.0.
+Make sure to delete your config files and generate new ones!
+
+So much for making weekly anniversary updates...ON TO part 2!
+
+-Added a configuration option to globally prevent digimon from spawning. This will allow you to use spawners without interference from other spawns.
+-Added the /create command. See the Item section for more details.
+
+-Introducing the Halloween Event!
+From October 27th-31st, your worlds will be haunted by special colored digimon. These digimon may drop a nice treat...or a trick!
+(Disabling spawns will prevent the event from working properly)
+
+
+ENTITY
+
+Digimon Re-added:
+-Sakumon
+-Gotsumon
+-Goblimon
+-Gazimon
+-Keramon
+-Impmon
+-Tapirmon
+-Tsukaimon
+-Bakemon
+-Soulmon
+-BlackGatomon
+-Saberdramon
+-Ogremon
+-Phantomon
+-LadyDevimon
+-SkullSatamon
+-Pumpkinmon
+-Piedmon
+-NoblePumpkinmon
+
+New Digimon:
+Chrysalimon
+???
+???
+???
+???
+
+
+Remodels:
+MetalKoromon
+Veedramon
+
+ITEMS
+-Added the creation tool. Instead of attempting to use the /create command with a lot of parameters to try and type out, the /create command will simply give you a creation tool.
+By right clicking on this tool, you will be able to create and edit digimon. Pay close attention to the instructions(accessible by holding down shift)
+To make these digimon spawn tamed, simply toggle the "Tameable" button. Those spawned will spawn tamed to you. If you right click another player before spawning, the digimon will be spawned to them!
+
+BLOCKS
+-Added Digi Spawner. A bit more basic(for now) than before, the spawner will allow you to have certain digimon spawn in whatever area you wish(providing there is room). Simply grab a creation tool with /create,
+edit the digimon to your liking, and right click the spawner to make it spawn that digimon! Note that this will not consume your creation tool, so you can easily reuse them for multiple spawners!
