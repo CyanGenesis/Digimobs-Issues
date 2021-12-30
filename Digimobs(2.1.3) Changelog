@@ -1,0 +1,69 @@
+First and foremost, the minimum Forge requirement has been updated to 36.2.20. 
+This version of forge applies a fix for the Log4J security issue that you may
+have seen recently in the news, and therefore is perfectly safe for server play
+
+Secondly, Happy New Years. I'm unfortunately quite behind in what I wanted to
+have accomplished by now, especially with catching the flu at the beginning of the month.
+But part of my resolutions include being more consistent
+with my hobbies, including Digimobs. I promise I'll get to npcs soon.
+
+==General==
+-New config for exp multiplier. This is pretty self explanitory, and will let you
+increase or decrease exp gained from fighting enemies.
+-You may also want to refresh your configs
+
+-New command! /digicode
+Based off a suggestion to imitate the Runelic mod, /digicode will allow you
+to covert text into digicode. There are various commands both for normal use
+and for OPed players.
+
+
+==Entities==
+
+-Introducing Spirals. Spirals come in many different forms, and can spawn as any digimon.
+Currently the different colors do not have any differences, but mostly aim to imitate
+the various colors in Re:Arise. For digimobs, these serve as "harder" mobs to fight
+that will reward you with 50% more exp on kill, and will also drop bytes.
+Higher form Spirals will drop higher level bytes.
+
+-All previous Rookie level digimon, aside from a few specific digimon, have been
+re-added to the mod. If you have a digimon already with the rookie form in their line,
+you should be able to immediately access it for evolution.
+
+-Reintroduced "skins"
+These are special textures that can be used on certain digimon.
+At the moment only one has been introduced as a reward/request from one of the
+modelers(Gaomon(Black))
+More to come in the future
+
+-New-
+Vorvomon
+PawnChessmon(Black)
+PawnChessmon(White)
+Cutemon
+
+-Remodel-
+-Gaomon
+-Hawkmon
+
+==Blocks=
+-Spawners should now equip spawned digimon with secondary special attacks
+like regular spawning
+-Spawners should now attach an evolution line to a digimon should you not
+specify a rookie form in the wand
+-Spawners are no longer limited to spawning on "natural" blocks(dirt,grass,etc)
+
+==Items==
+-Re-added bytes, with more tiers
+Bytes are now stackable
+Bytes have a 25% of dropping from a spiral digimon
+Byte tiers:
+Byte(25exp)
+Mega Byte(50exp)
+Giga Byte(75exp)
+Tera Byte(150exp)
+Peta Byte(500 exp)
+Exa Byte(1500 exp)
+
+==Bugs==
+-Numerous crashes related to my inability to spell special attacks have been fixed
