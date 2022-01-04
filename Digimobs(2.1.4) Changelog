@@ -1,0 +1,19 @@
+
+
+==General==
+-Added seperate spawning caps for Champion, Ultimate, and Mega level digimon.
+This should reduce the number spawning and help out a little on the lag.
+
+==Entities==
+-Technically you all get Champion forms beginning with A-C re-added to the mod
+Because this update was not planned and I had them already started.
+
+==Blocks=
+
+
+==Items==
+-Bytes now have descriptions, to make their function a little clearer.
+
+==Bugs==
+-Various models and textures have had fixes from where they did not port
+from 1.12 so well.
