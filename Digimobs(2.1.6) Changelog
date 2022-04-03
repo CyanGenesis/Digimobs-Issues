@@ -1,0 +1,34 @@
+==General==
+-Added a config option for an age multiplier
+-Added a config option to add vanilla drops to digimon
+-Added a config option to disable hostile vanilla mobs
+-Added a config option to disable passive vanilla mobs
+*Note: Most of your nether, end, and deepsea items will only drop from digimon champion and above
+*Note: These do not currently disable "villager" mobs such as Villagers, Illagers, or Piglins
+*Note: This also does not disable ambient mobs such as bats or fish
+
+==Entities==
+-Made brown mutations a little browner by request?
+-Re-Added Hunger
+*Hunger is a little bit different now, as it does not slowly get lowered over time
+*Each time your digimon attacks, it has a 25% chance to lose 1 hunger.
+*Your digimon will lose half its current hunger upon evolution.
+*Upon reaching 0 hunger, your digimon will sit down and not move unless forced to attack
+*If your digimon maintains above 75% of its hunger, it will regen 1hp/tick while sitting
+*If your digimon is overfed, it may experience a failure evolution(these are temporary for the time being and will not alter your evolution line..for now)
+*All vanilla foods edible by the player can be eaten by the digimon. Digimobs related foods will return soon.
+
+-Ported over more old digimon
+
+-Conversation beta
+
+
+==Blocks=
+
+
+==Items==
+-Re added alarm clocks
+These are only available in creative for now. They will instantly give 1 age to a digimon. They will also instantly hatch a digiegg.
+
+==Bugs==
+-Fixes for certain crashes
