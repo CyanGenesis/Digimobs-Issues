@@ -1,0 +1,35 @@
+==General==
+
+ 
+
+==Entities==
+-Digimon spawned from spawners should now have spawn with favorite items.
+-Remodel added for Piddomon
+-Remodel added for Hagurumon/Solarmon
+-Animation update for Kotemon
+-Animation update for Coronamon
+-Added Snimon
+-Ported more old digimon.
+
+-Added Bits
+Bits have a 25% change of dropping from digimon, and scale based on their level
+You can check your balance with the /bits balance command. More features will be added to the /bits command in the future, including giving between players.
+
+-NPCs have been added!
+This is more of a beta test of sorts for npcs more than anything
+NPC vendors selling various items can be found roaming about villages
+Because this is a beta, there are a low amount of npcs that spawn(2 per village)
+This will change as more npc types and sellable items are added!
+*Items that currently do not have prices in the vendor tables cannot be bought or sold from npcs.
+*You can ONLY interact with npcs by clicking on them with a digivice
+
+==Blocks=
+
+ 
+
+==Items==
+
+ 
+
+==Bugs==
+Bugs and bugs and bug fixes
