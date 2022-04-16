@@ -32,4 +32,7 @@ This will change as more npc types and sellable items are added!
  
 
 ==Bugs==
-Bugs and bugs and bug fixes
+**2.1.7a fixes**
+Fixed a crash related to Omnimon Zwart's model not loading
+Fixed an issue with certain buttons on the partner selection not being clickable.
+Fixed a crash related to npcs attempting to spawn in villages without proper data.
