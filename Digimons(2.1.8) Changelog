@@ -1,0 +1,59 @@
+
+
+==General==
+Special thanks to discord user Midlight#6148 for tipping us off to a literal basement dwelling troll who has been attempting to steal models and textures from the mod.
+Unfortunately due to this, we will stop preloading any new models that aren't already in the mod beforehand, in favor of adding them in whichever update they will be released in.
+This will unfortunately probably make adding entities a little more time, but I'm not having other people's hardwork ripped and claimed as someone elses own creation.
+We're in the process of taking further steps to make sure said theives have incentive to not steal our stuff, should they want to continue.
+Thanks again to Midlight for all your help! We'll make sure to reward you in the upcoming NPC updates.
+
+==Entities==
+-Fixed an issue where hitboxes were scaling improperly to models
+*This was unfortunately a severe lack of oversight on my part. In addition to this, it made all current hitboxes much bigger than they need to be.
+*There was a quick check to adjust these hitboxes in this update, and this will be completely remedied in the upcoming Evolutions update.
+
+
+-Added "Anomaly" mutation.
+Digimon have a 1/8192 chance of spawning with a mutation that alters their texture and..
+Okay yeah, I added shiny Digimon. Sue me.
+*These only apply to Digimon that have been converted to BlockBench format.
+-Removed method of getting Hackmon
+
+-Added Passives
+*Digimon already tamed will have a chance to gain a passive upon resyncing to the v-pet
+
+-Changed Bond conditions for unlocking evolutions
+*You will now gain the ability to revert into an egg at 300 bond, ultimate unlock at 400, and mega unlock at 500. Rookie and Champion unlocks remain unchanged
+
+-Updated several sprites
+-Updated several animations of old models
+
+-Approximately 90% of the old models have now been re-added to the mod!
+
+New Models
+Falcomon
+Shellmon/MoriShellmon
+Betamon/ModokiBetamon
+Vikemon
+
+New Digimon
+PrinceMamemon
+BanchoMamemon
+???
+Anubismon
+*Any digimon on the Labramon line currently with Cherubimon(Virtue) as a mega will automatically convert to Anubismon upon being resynced to vpet.
+
+-Bond items sold by NPC vendors have had their prices reduced
+-You can now see your digimon's max weight in the stats screen
+-You can now see your digimon's special attack's elements and EG cost in the specials screen
+-Decreased the amount of player exp earned from digimon
+-Digimon damage now scales to players
+
+==Blocks=
+-Huanglong ore can now be smelted in a blast furnace
+
+==Items==
+
+
+==Bugs==
+Numerous bug fixes and npc exploits
