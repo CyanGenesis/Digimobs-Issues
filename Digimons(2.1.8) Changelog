@@ -1,11 +1,11 @@
 
 
 ==General==
-Special thanks to discord user Midlight#6148 for tipping us off to a literal basement dwelling troll who has been attempting to steal models and textures from the mod.
+Special thanks to discord user for tipping us off to a literal basement dwelling troll who has been attempting to steal models and textures from the mod.
 Unfortunately due to this, we will stop preloading any new models that aren't already in the mod beforehand, in favor of adding them in whichever update they will be released in.
 This will unfortunately probably make adding entities a little more time, but I'm not having other people's hard work ripped and claimed as someone else's own creation.
 We're in the process of taking further steps to make sure said thieves have incentive to not steal our stuff, should they want to continue.
-Thanks again to Midlight for all your help! We'll make sure to reward you in the upcoming NPC updates.
+Thanks again to a discord user for all your help! We'll make sure to reward you in the upcoming NPC updates.
 
 ==Entities==
 -Fixed an issue where hitboxes were scaling improperly to models
